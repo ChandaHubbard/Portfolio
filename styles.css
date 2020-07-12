@@ -14,7 +14,7 @@ body {
   }
   
   header h1 {
-    font-weight: 700;
+    font-size: 2rem;
     margin: 0;
   }
   
@@ -56,27 +56,80 @@ body {
     width: 100%;
   }
   
+  .heading {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
   .col-md-6 {
     margin: 0 0 30px;
   }
+  /* A link that has not been visited */
+a:link {
+  color: white;
+}
+/* A link that has been visited */
+a:visited {
+  color: white;
+}
+/* A link that is hovered on */
+a:hover {
+  color: white;
+}
+/* A link that is selected */
+a:active {
+  color: white;
+}
   
-  .btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #fbd1d5;
-    text-shadow: none;
-    background-color: #ffffff;
+  /* button */
+  .mybutton {
+    box-shadow: 3px 5px 20px -7px #0076e4;
+    background-color:#F74B60;
+    border-radius:5px;
+    border:3px solid #F74B60;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    padding:8px 19px;
+    margin: 10px;
+    text-decoration:none;
+    text-shadow:1px 1px 3px #000000;
+  }
+  .mybutton:hover {
+    background-color: #0076e4;
+    border:3px solid #0076e4;
+  }
+  .mybutton:active {
+    color: white;
+    position:relative;
+    top:1px;
   }
   
-  .btn.btn-primary:hover {
-    color: #ffffff;
-    background-color: #fbd1d5;
-  }
-  
-  .btn-secondary {
-    background-color: #E8DFE0;
+  .mybutton-secondary {
+    background-color: #0076e4;
     color: #ffffff;
     margin: 0 0 30px;
+  }
+  .center {
+    text-align: center;
+  }
+
+  /* project cards */
+  figure {
+    /* border: 1px solid black; */
+    margin: 1rem;
+    /* padding: 5rem; */
+  }
+
+  .card {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .project-image {
+   /* width: 25rem; */
+   height: 40rem;
   }
   
   footer {
