@@ -34,8 +34,8 @@ footer .row {
 }
 
 svg {
-  width: 20rem;
-  margin: 5rem;
+  width: 15rem;
+  margin: 2rem;
 }
 
 
@@ -87,23 +87,18 @@ section .row img {
   margin: 0 0 30px;
 }
 
-/* A link that has not been visited */
-
 h1 a:link {
   color: black;
 }
 h1 a:visited {
   color: black;
 }
-/* A link that has been visited */
 nav a:visited {
   color: black;
 }
-/* A link that is hovered on */
 nav a:hover {
   color: #0076e4;
 }
-/* A link that is selected */
 nav a:active {
   color: #f74b60;
 }
@@ -122,6 +117,17 @@ nav a:active {
 /* A link that is selected */
 .button-a a:active {
   color:  white;
+}
+
+.contact-list li {
+  list-style-type:none;
+}
+a .contact-list {
+  padding: 0rem;
+}
+
+.contact-icon {
+  width: 7rem;
 }
 
 .portrait {
