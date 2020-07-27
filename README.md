@@ -1,3 +1,3 @@
 # Portfolio
 
-[>Portfolio<](https://thinkful-portfolio.vercel.app)
+[>Portfolio<](https://thinkful-portfolio.chandacodes.vercel.app/)
