@@ -119,11 +119,21 @@ nav a:active {
   color:  white;
 }
 
-.contact-list li {
+.contact-list li, .resume-list {
   list-style-type:none;
+  font-family: "Anonymous Pro", monospace;
 }
 a .contact-list {
+  padding: 1rem;
+}
+
+.resume-link {
   padding: 0rem;
+}
+
+.experience-header {
+  
+  margin-top: 15rem;
 }
 
 .contact-icon {
