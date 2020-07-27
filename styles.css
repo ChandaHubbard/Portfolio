@@ -1,152 +1,230 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-  }
-  
-  header {
-    padding: 20px 0;
-  }
-  
-  header .row,
-  footer .row {
-    display: flex;
-    align-items: center;
-  }
-  
-  header h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  header p {
-    padding: 0 20px;
-    margin: 0;
-  }
-  
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 200;
+  margin: 0;
+}
+
+.name {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  float: left;
+}
+
+nav.links {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  float: right;
+}
+
+a {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  width: 20rem;
+  margin: 5rem;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
 
 .jumbotron {
-    display: flex;
-    align-items: center;
-    background-image: url('./images/codebackground.jpg');
-    background-size: cover;
-    color:white;
-    height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
-  }
+  display: flex;
+  align-items: center;
+  background-image: url("./images/codebackground.jpg");
+  background-size: cover;
+  color: white;
+  height: 500px;
+  text-shadow: 0.25rem 0.25rem 0.25rem #000000;
+  font-family: "Poppins", sans-serif;
+}
 
-  .jumbotron h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-  }
-  
-  .jumbotron h3 {
-    margin: 0 0 20px;
-    color: #fff;
-  }
-  
-  section .row img {
-    margin: 0 0 30px;
-    width: 100%;
-  }
-  
-  .heading {
-    text-align: center;
-    margin-bottom: 5rem;
-  }
-  .col-md-6 {
-    margin: 0 0 30px;
-  }
-  /* A link that has not been visited */
-a:link {
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+  text-align: left;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+/* A link that has not been visited */
+
+h1 a:link {
+  color: black;
+}
+h1 a:visited {
+  color: black;
+}
+/* A link that has been visited */
+nav a:visited {
+  color: black;
+}
+/* A link that is hovered on */
+nav a:hover {
+  color: #0076e4;
+}
+/* A link that is selected */
+nav a:active {
+  color: #f74b60;
+}
+
+.button-a a:link {
   color: white;
 }
 /* A link that has been visited */
-a:visited {
+.button-a a:visited {
   color: white;
 }
 /* A link that is hovered on */
-a:hover {
-  color: white;
+.button-a a:hover {
+  color:  white;
 }
 /* A link that is selected */
-a:active {
-  color: white;
+.button-a a:active {
+  color:  white;
 }
-  
-  /* button */
-  .mybutton {
-    box-shadow: 3px 5px 20px -7px #0076e4;
-    background-color:#F74B60;
-    border-radius:5px;
-    border:3px solid #F74B60;
-    display:inline-block;
-    cursor:pointer;
-    color:white;
-    font-family: 'Roboto', sans-serif;
-    font-size:16px;
-    font-weight:bold;
-    padding:8px 19px;
-    margin: 10px;
-    text-decoration:none;
-    text-shadow:1px 1px 3px #000000;
-  }
-  .mybutton:hover {
-    background-color: #0076e4;
-    border:3px solid #0076e4;
-  }
-  .mybutton:active {
-    color: white;
-    position:relative;
-    top:1px;
-  }
-  
-  .mybutton-secondary {
-    background-color: #0076e4;
-    color: #ffffff;
-    margin: 0 0 30px;
-  }
-  .center {
-    text-align: center;
-  }
 
-  /* project cards */
-  figure {
-    /* border: 1px solid black; */
-    margin: 1rem;
-    /* padding: 5rem; */
-  }
+.portrait {
+  width:  350px;
+  height: 300px;
+}
 
-  .card {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-  .project-image {
-   /* width: 25rem; */
-   height: 40rem;
-  }
-  
-  footer {
-    font-size: 12px;
-    padding: 20px 0;
-  }
-  
-  footer .col-sm-8 {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  footer ul {
-    list-style: none;
-  }
-  
-  footer li img {
-    width: 32px;
-    height: 32px;
-  }
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+/* button */
+.mybutton {
+  box-shadow: 3px 5px 20px -7px #0076e4;
+  background-color: #f74b60;
+  border-radius: 5px;
+  border: 3px solid #f74b60;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 19px;
+  margin: 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px #000000;
+}
+.mybutton:hover {
+  background-color: #0076e4;
+  border: 3px solid #0076e4;
+}
+.mybutton:active {
+  color: white;
+  position: relative;
+  top: 1px;
+}
+
+.mybutton-secondary {
+  background-color: #0076e4;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+.center {
+  text-align: center;
+}
+
+/* project cards */
+figure {
+  /* border: 1px solid black; */
+  margin: 1rem;
+  /* padding: 5rem; */
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.card {
+  margin: 0 5rem 0rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.card-header, .card-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-image {
+  /* width: 25rem; */
+  height: 40rem;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}

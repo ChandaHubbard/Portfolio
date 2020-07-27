@@ -14,25 +14,31 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Open+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="container">
       <div class="row">
-        <h1 class="col-sm-6">Chanda Hubbard | Full Stack Software Engineer</h1>
-        <nav class="col-sm-8 text-right">
-          <p>nav item 1</p>
-          <p>nav item 2</p>
-          <p>nav item 3</p>
+        <h1 class="name text-left"><a href="./index.html">Chanda Hubbard</a></h1>
+        <nav class="links text-right">
+          <a href="./experience.html">Experience</a>
+          <a href="./about.html">About Me</a>
+          <a href="./contact.html">Contact</a>
         </nav>
       </div>
     </header>
     <section class="jumbotron">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-left">
+          <h2>Full Stack Software Engineer</h2>
+          <br />
+          <h3>React, Javascript, Node.js, PostgrSQL, Express</h3>
         </div>
       </div>
     </section>
-  
 
     <div class="heading"><h2>About Me</h2></div>
     <div class="heading"><h2>Projects</h2></div>
@@ -40,15 +46,12 @@
     <section class="container">
       <div class="row">
         <figure class="col-sm-6">
-          <p>Bloom Full Stack App</p>
-          <img
-            src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg"
-            class="project-image"
-          />
+          <h4 class="card-header">Bloom App</h4>
+          <img src="./images/bloom.png" class="project-image" />
           <div class="card">
-            <h5 class="card-header">Bloom</h5>
+            <h4 class="card-header">Full Stack Web App </h4>
             <div class="card-body">
-              <h5 class="card-title">Full Stack Web App created with</h5>
+              <h5 class="card-title">created with</h5>
               <ul>
                 <li>React</li>
                 <li>Node.js</li>
@@ -58,33 +61,33 @@
               </ul>
               <p class="card-text">
                 While enrolled in Thinkful's Web Development bootcamp I created
-                this Full-stack Capstone project.
-                <br />
-                <br />
-                <br />
+                this Full-stack Capstone project. Bloom is an interactive web
+                application that was created to view and manage your plant
+                collection. The Bloom app was created so that you can view all
+                of your plants, and keep track of thier care and maintenance.
               </p>
               <div class="center">
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://github.com/ChandaHubbard/bloom-client"
                     target="_blank"
                     >GitHub Repo</a
                   >
                 </button>
-                <button class="mybutton">
-                  <a href=" " target="_blank">Live App</a>
+                <button class="mybutton button-a">
+                  <a href="https://bloom-app.chandacodes.vercel.app/" target="_blank"  class="button-a">Live App</a>
                 </button>
               </div>
             </div>
           </div>
         </figure>
         <figure class="col-sm-6">
-          <p>Easy Budget Full Stack Web App</p>
-          <img src="./images/easybudget.png" class="project-image" alt="..." />
+          <h4 class="card-header">Easy Budget App</h4>
+          <img src="./images/easybudget.png" class="project-image" alt="easy-budget" />
           <div class="card">
-            <h5 class="card-header">Easy Budget</h5>
+            <h4 class="card-header">Full Stack Web App </h4>
             <div class="card-body">
-              <h5 class="card-title">Full Stack Web App created with</h5>
+              <h5 class="card-title">created with</h5>
               <ul>
                 <li>React</li>
                 <li>Node.js</li>
@@ -101,14 +104,14 @@
                 financial goals.
               </p>
               <div class="center">
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://github.com/ChandaHubbard/Easy-Budget-Client"
-                    target="_blank"
+                    target="_blank" 
                     >GitHub Repo</a
                   >
                 </button>
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://easy-budget.chandacodes.vercel.app/"
                     target="_blank"
@@ -124,16 +127,16 @@
       <div class="row">
         <figure class="col-sm-6">
           <div class="card">
-          <p>Dinner and a Movie API App</p>
-          <img
-            src="./images/dinnerandamovie.png"
-            class="project-image"
-            alt="..."
-          />
-          
-            <h5 class="card-header">Dinner and a Movie</h5>
+            <h4 class="card-header">Dinner and a Movie API App</h4>
+            <img
+              src="./images/dinnerandamovie.png"
+              class="project-image"
+              alt="project-image"
+            />
+
+            <h4 class="card-header">Web App </h4>
             <div class="card-body">
-              <h5 class="card-title">Web App created with</h5>
+              <h5 class="card-title">created with</h5>
               <ul>
                 <li>jQuery</li>
                 <li>Javascript</li>
@@ -154,14 +157,14 @@
                 a similar movie.
               </p>
               <div class="center">
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://github.com/ChandaHubbard/API-Hack-Capstone"
                     target="_blank"
                     >GitHub Repo</a
                   >
                 </button>
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://chandahubbard.github.io/API-Hack-Capstone/"
                     target="_blank"
@@ -174,12 +177,11 @@
         </figure>
         <figure class="col-sm-6">
           <div class="card">
-          </div><p>Fashion Designer Quiz App</p>
-          <img src="./images/quizapp.png" class="project-image" alt="..." />
-          
-            <h5 class="card-header">Fashion Designer Quiz</h5>
+            <h4 class="card-header">Fashion Designer Quiz App</h4>
+            <img src="./images/quizapp.png" class="project-image" alt="project-image" />
+            <h4 class="card-header">Web App </h4>
             <div class="card-body">
-              <h5 class="card-title">Web App created with</h5>
+              <h5 class="card-title">created with</h5>
               <ul>
                 <li>jQuery</li>
                 <li>Javascript</li>
@@ -192,19 +194,21 @@
                 This Fashion Designer Quiz App was the first project that I
                 created during Thinkful's Web Development course.
               </p>
-              <br>
-              <br>
-              <br>
-              <br>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
               <div class="center">
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://github.com/ChandaHubbard/ChandaHubbard.github.io/tree/master/quizapp"
                     target="_blank"
                     >GitHub Repo</a
                   >
                 </button>
-                <button class="mybutton">
+                <button class="mybutton button-a">
                   <a
                     href="https://chandahubbard.github.io/quizapp/"
                     target="_blank"
