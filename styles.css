@@ -53,7 +53,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("./images/codebackground.jpg");
+  background-image: url("./codebackground.jpg");
   background-size: cover;
   color: white;
   height: 500px;
